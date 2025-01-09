@@ -1,0 +1,35 @@
+$colorTextIndex: rgb(77, 94, 117);
+$colorFooter: #8180b8;
+
+.cabecalho {
+  margin-left: 3rem;
+}
+.box-buttons-header {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 1rem;
+}
+.buttons-header {
+  display: inline;
+  margin-left: 3rem;
+  padding: 0.2rem;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  border: 0.5px solid black;
+  border-radius: 1.1rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $colorFooter;
+  height: 5rem;
+}
+
+.button-footer {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: black;
+}

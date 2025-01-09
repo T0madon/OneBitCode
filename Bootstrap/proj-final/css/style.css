@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabecalho {
+  margin-left: 3rem;
+}
+
+.box-buttons-header {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 1rem;
+}
+
+.buttons-header {
+  display: inline;
+  margin-left: 3rem;
+  padding: 0.2rem;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  border: 0.5px solid black;
+  border-radius: 1.1rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8180b8;
+  height: 5rem;
+}
+
+.button-footer {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.header1 {
+  position: relative;
+  min-height: 100vh;
+}
+
+.fundo {
+  position: relative;
+  min-height: 100vh;
+}
+
+.imgs-index {
+  position: absolute;
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  z-index: -10;
+}
+
+.background-img-1 {
+  top: 0;
+}
+
+.text-1 {
+  margin-left: 3rem;
+  margin-top: 12rem;
+}
+
+.text-4 {
+  color: rgb(77, 94, 117);
+  font-size: 2rem;
+}
+
+.text-5 {
+  color: rgb(77, 94, 117);
+  font-size: 3rem;
+}
+
+.texto-animado {
+  margin-left: 3rem;
+}
+
+.fundo-1 {
+  display: flex;
+  align-items: center;
+}
+
+.fundo-2 {
+  display: flex;
+  align-items: center;
+}
+
+.fundo-3 {
+  display: flex;
+  align-items: center;
+}
+
+.saibaMais {
+  padding: 0.5rem;
+  border: 1px solid black;
+  font-size: 1rem;
+  border-radius: 8px;
+  background-color: rgb(77, 94, 117);
+}
+.saibaMais:hover {
+  background-color: rgb(51, 50, 50);
+  color: white;
+  transition: 0.7s;
+}
+
+.text-1-adote {
+  margin-top: 12rem;
+  margin-left: 25vw;
+  margin-right: auto;
+}
+
+.fundo-1-adote {
+  display: inline;
+}
+
+.dados {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 13rem;
+  align-items: center;
+}
+
+.dados-adote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

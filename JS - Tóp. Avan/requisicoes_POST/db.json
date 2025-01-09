@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "title": "Novo título",
+      "author": "T0madon",
+      "content": "Nossa viagem para a praia vai ser só chuva",
+      "id": "1"
+    },
+    {
+      "title": "Requisições POST com JavaScript",
+      "author": "Isaac",
+      "content": "Esse teste é para dizer que eu consegui editar um texto",
+      "id": "2"
+    },
+    {
+      "title": "Agora vai",
+      "author": "Rosana",
+      "content": "Maria mi vida mi amor, ya encontre, la casa de papel",
+      "id": "8ef7"
+    }
+  ]
+}

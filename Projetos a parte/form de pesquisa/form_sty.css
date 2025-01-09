@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(meeting.png) center center no-repeat fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(16, 54, 110, 0.9);
+  padding: 50px;
+  border-radius: 5px;
+}
+h1,
+p,
+label {
+  color: rgb(220, 212, 212);
+  font-size: 20px;
+  padding: 8px 0px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+.page-title {
+  font-size: 35px;
+  padding: 5px;
+  font-weight: bold;
+}
+.page-sub {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.box-input {
+  padding: 10px;
+}

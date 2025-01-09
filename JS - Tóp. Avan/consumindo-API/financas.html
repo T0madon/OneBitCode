@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Controle de finanças</title>
+    <link rel="stylesheet" href="financas.css" />
+  </head>
+  <body>
+    <main>
+      <form action="http://localhost:3000/gastos" method="post" id="infos">
+        <h1>Finanças T0madon</h1>
+
+        <h2 style="padding: 1.5rem; display: flex; justify-content: center">
+          Nova Transação:
+        </h2>
+
+        <div id="inserir-infos">
+          <label for="causa">Causa:</label>
+          <input type="text" id="causa" required />
+          <br />
+          <label for="value">Valor:</label>
+          <input type="number" step="0.01" id="value" required />
+          <br />
+          <div class="div-radio">
+            <label for="ganho" style="padding-right: 0.8rem; font-size: 1.5rem"
+              >Ganho</label
+            >
+            <input
+              class="input-radio"
+              type="radio"
+              id="ganho"
+              name="ganhoOuPerca"
+            />
+          </div>
+          <div class="div-radio">
+            <label for="perca" style="padding-right: 1.45rem; font-size: 1.5rem"
+              >Perca</label
+            >
+            <input
+              class="input-radio"
+              required
+              type="radio"
+              id="perca"
+              name="ganhoOuPerca"
+            />
+          </div>
+          <br />
+          <button id="enviar">Enviar</button>
+        </div>
+      </form>
+
+      <div id="informacoes">
+        <h2 id="tituloSaldo" style="display: flex">
+          Saldo: <span style="padding: 0.5rem; display: flex" id="saldo"></span>
+          <div class="cifrao">$</div>
+        </h2>
+        <h2 id="historico">Histórico de Transações</h2>
+        <form id="transacoes"></form>
+      </div>
+    </main>
+
+    <script src="financas.js"></script>
+  </body>
+</html>

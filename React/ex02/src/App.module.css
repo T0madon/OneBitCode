@@ -1,0 +1,9 @@
+.app {
+  background-color: #aac6cf;
+  display: flex;
+  min-height: 80vh;
+  place-content: center;
+  text-align: center;
+  padding: 3rem;
+  border-radius: 2rem;
+}

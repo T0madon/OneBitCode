@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Intel Core i9-9900K",
+    "description": "O processador Intel Core i9-9900K é uma potente CPU de 9ª geração com 8 núcleos e 16 threads, oferecendo excelente desempenho para gaming e aplicações profissionais. Ele possui uma frequência base de 3.6 GHz e pode atingir até 5.0 GHz em modo turbo.",
+    "price": 399.99
+  },
+  {
+    "id": 2,
+    "name": "AMD Ryzen 7 5800X",
+    "description": "O processador AMD Ryzen 7 5800X é um poderoso chip de 8 núcleos e 16 threads da linha Ryzen 5000. Com uma arquitetura Zen 3 avançada, oferece excelente desempenho tanto em tarefas de produtividade quanto em jogos. Sua frequência base é de 3.8 GHz, podendo alcançar até 4.7 GHz em boost.",
+    "price": 449.99
+  },
+  {
+    "id": 3,
+    "name": "Intel Core i7-10700K",
+    "description": "O processador Intel Core i7-10700K é uma excelente escolha para entusiastas e gamers, oferecendo 8 núcleos e 16 threads com uma frequência base de 3.8 GHz e boost de até 5.1 GHz. Sua performance é garantida em aplicações exigentes e jogos AAA.",
+    "price": 349.99
+  },
+  {
+    "id": 4,
+    "name": "AMD Ryzen 5 5600X",
+    "description": "O AMD Ryzen 5 5600X é uma CPU de alta performance para jogos e multitarefa, oferecendo 6 núcleos e 12 threads com uma frequência base de 3.7 GHz e boost de até 4.6 GHz. Com a arquitetura Zen 3, proporciona uma experiência de usuário excepcional.",
+    "price": 299.99
+  },
+  {
+    "id": 5,
+    "name": "Intel Core i5-11600K",
+    "description": "O Intel Core i5-11600K é uma opção sólida para gamers e profissionais que buscam um equilíbrio entre desempenho e preço. Com 6 núcleos e 12 threads, uma frequência base de 3.9 GHz e boost de até 4.9 GHz, oferece uma ótima performance em uma ampla gama de aplicações.",
+    "price": 259.99
+  }
+]

@@ -1,0 +1,17 @@
+p {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: overline;
+}
+h1 {
+  text-decoration: underline;
+  font-family: "Geostar Fill";
+  margin: 50px auto 100px auto;
+  width: min-content;
+  background-color: yellowgreen;
+  border: 2px solid;
+  padding: 10px;
+}

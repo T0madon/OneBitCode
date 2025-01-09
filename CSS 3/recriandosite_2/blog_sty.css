@@ -1,0 +1,20 @@
+h1 {
+  font-family: Montserrat, sans-serif;
+}
+h3 {
+  font-family: Roboto, sans-serif;
+  color: #008080;
+  font-weight: 900;
+}
+p {
+  font-family: Open Sans, sans-serif;
+  background-color: #fffafa;
+}
+hr {
+  margin: 40px 200px auto 200px;
+}
+div {
+  width: 70%;
+  height: 100%;
+  margin: 0px auto 0px auto;
+}

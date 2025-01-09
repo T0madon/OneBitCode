@@ -1,0 +1,19 @@
+li a {
+  color: red;
+}
+
+li > a {
+  color: aqua;
+}
+
+h1 + h3 {
+  border: 4px dashed;
+}
+
+a[href="/recibosla"] {
+  color: yellow;
+}
+
+li:nth-of-type(2) {
+  color: purple;
+}

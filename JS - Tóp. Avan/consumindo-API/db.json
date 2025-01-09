@@ -1,0 +1,19 @@
+{
+  "gastos": [
+    {
+      "id": "6498",
+      "name": "Pix",
+      "value": 25
+    },
+    {
+      "id": "79e1",
+      "name": "Mercado",
+      "value": -150
+    },
+    {
+      "id": "01ff",
+      "name": "Bolsa IC",
+      "value": 700
+    }
+  ]
+}

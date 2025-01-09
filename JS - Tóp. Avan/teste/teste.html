@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Símbolo de Cifrão 3D</title>
+    <script src="teste.js"></script>
+    <style>
+      body {
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .dollar-sign {
+        font-size: 36px;
+        color: #4caf50; /* tom médio de verde */
+        animation: floatRotate 4s linear infinite;
+      }
+
+      @keyframes floatRotate {
+        0% {
+          transform: translateY(0) rotate(0deg) rotateY(0deg);
+        }
+        50% {
+          transform: translateY(-10px) rotate(180deg) rotateY(180deg);
+        }
+        100% {
+          transform: translateY(0) rotate(360deg) rotateY(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+  </body>
+</html>

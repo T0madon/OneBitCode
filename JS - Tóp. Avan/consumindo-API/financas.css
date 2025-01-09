@@ -1,0 +1,200 @@
+:root {
+  --color-fundo: rgb(60, 57, 57);
+  --color-clara: rgb(236, 227, 227);
+}
+.gray {
+  background-color: rgb(94, 93, 93);
+}
+.white {
+  background-color: rgb(77, 121, 81);
+}
+
+.gray:hover {
+  background-color: rgb(120, 118, 118);
+}
+.white:hover {
+  background-color: rgb(86, 157, 92);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--color-clara);
+}
+html,
+body {
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-fundo);
+  display: flex;
+  justify-content: space-between;
+  padding: 1.75rem;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  border: 6.75px solid;
+  border-radius: 20px;
+  animation: ledEffect 5s infinite;
+}
+
+@keyframes ledEffect {
+  0% {
+    border-color: red;
+  }
+  33% {
+    border-color: green;
+  }
+  66% {
+    border-color: blue;
+  }
+  100% {
+    border-color: red;
+  }
+}
+
+#infos {
+  padding-right: 2rem;
+  border-right: 3px solid var(--color-clara);
+  width: 25%;
+}
+
+label {
+  font-size: 1.25rem;
+  color: var(--color-clara);
+}
+
+input {
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: black;
+}
+
+#inserir-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(43, 42, 42);
+  padding: 1.56rem;
+  border-radius: 1.25rem;
+  box-shadow: 10px 15px grey;
+}
+
+#informacoes {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 > #saldo,
+#tituloSaldo {
+  width: 100%;
+  padding: 0.2rem;
+}
+
+#transacoes {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  justify-content: space-around;
+}
+
+.cifrao {
+  color: rgb(7, 123, 7);
+  font-size: 4rem;
+  animation: rotateAndFloat 3s infinite;
+  transform-style: preserve-3d;
+  padding-right: 1rem;
+}
+
+@keyframes rotateAndFloat {
+  0% {
+    transform: rotateY(0deg) translateY(0);
+  }
+  50% {
+    transform: rotateY(360deg) translateY(-10px);
+  }
+  100% {
+    transform: rotateY(0deg) translateY(0);
+  }
+}
+
+#historico {
+  padding: 0.5rem;
+}
+
+.div-radio {
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+}
+
+#enviar {
+  border: none;
+  font-size: 0.7rem;
+  outline: none;
+  padding: 0.55rem;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
+#enviar:hover {
+  transition: 0.3s;
+  background-color: grey;
+}
+
+.transacao {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.45rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.names {
+  width: 70%;
+}
+.values {
+  width: 14%;
+}
+.botao-editar,
+.botao-deletar {
+  color: black;
+  height: 2rem;
+  width: 7.6%;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.botao-editar:hover {
+  transition: 0.4s;
+  background-color: rgb(33, 30, 106);
+  color: var(--color-clara);
+}
+.botao-deletar:hover {
+  transition: 0.4s;
+  background-color: rgb(187, 41, 41);
+  color: var(--color-clara);
+}

@@ -1,0 +1,28 @@
+.btn {
+  width: 125px;
+  padding: 10px 0;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
+
+  //   &.btn-roxo {
+  //     background-color: purple;
+  //     color: white;
+  //   }
+
+  //O QUE VAI ACONTECER AQUI É QUE O EXTENDS FAZ O PAPEL DAS LINHAS DE CÓDIGO ACIMA
+
+  &.btn-amarelo {
+    background-color: yellow;
+  }
+  &.btn-azul {
+    background-color: blue;
+    color: white;
+  }
+}
+
+.btn-roxo {
+  @extend .btn;
+  background-color: purple;
+  color: white;
+}

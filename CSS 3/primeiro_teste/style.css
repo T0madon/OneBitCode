@@ -1,0 +1,25 @@
+li {
+  color: green;
+}
+h1 {
+  font-size: 50px;
+
+  border: 5px solid orange;
+}
+body {
+  background-image: url("https://f.i.uol.com.br/fotografia/2023/04/20/1681998360644142185d1d0_1681998360_3x2_lg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.moon {
+  color: blueviolet;
+}
+
+.big-text {
+  font-size: 50px;
+}
+
+#europa-text {
+  font-size: 10px;
+}

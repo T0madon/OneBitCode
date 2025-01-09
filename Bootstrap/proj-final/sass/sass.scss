@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import "./commun-elements/variables.scss";
+@import "./commun-elements/commun-elements.scss";
+@import "./pages/index.scss";
+@import "./pages/adote.scss";
+@import "./pages/prod.scss";

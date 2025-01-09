@@ -1,0 +1,17 @@
+.container00 {
+  min-height: 100vh;
+  color: rgb(255, 81, 174);
+}
+
+.header {
+  font-size: 12px;
+}
+
+.container00.container01 {
+  background-color: green;
+}
+.container00.container02 {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 11</title>
+    <script src="ex11.js"></script>
+  </head>
+  <body>
+    <h1>Escalação de Times</h1>
+    <hr />
+    <h2>JOGADORES ESCALADOS:</h2>
+
+    <ul id="lista_escalados"></ul>
+    <br />
+    <hr />
+    <h3>Escalar Jogador</h3>
+
+    <ul id="escalar">
+      <label for="posicao">Posição Do Jogador: </label>
+      <input type="text" class="infoEscala" id="posicao" value="" />
+      <br /><br />
+      <label for="nomeJog">Nome do Jogador: </label>
+      <input type="text" class="infoEscala" id="nomeJog" value="" />
+      <br /><br />
+      <label for="numAdd">Número Da Camisa: </label>
+      <input type="text" class="infoEscala" id="numAdd" value="" />
+      <br /><br />
+      <button id="escalarJog" onclick="escala()">ESCALAR JOGADOR</button>
+    </ul>
+    <hr />
+    <h3>Remover Jogador</h3>
+
+    <ul id="remover">
+      <label for="numSub">Número Da Camisa: </label>
+      <input type="text" id="numSub" value="" /><br /><br />
+      <button id="removerJog" onclick="remove()">REMOVER JOGADOR</button>
+    </ul>
+  </body>
+</html>

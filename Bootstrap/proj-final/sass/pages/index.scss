@@ -1,0 +1,61 @@
+.header1 {
+  position: relative;
+  min-height: 100vh;
+}
+
+.fundo {
+  position: relative;
+  min-height: 100vh;
+}
+
+.imgs-index {
+  position: absolute;
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  z-index: -10;
+}
+
+.background-img-1 {
+  top: 0;
+}
+.text-1 {
+  margin-left: 3rem;
+  margin-top: 12rem;
+}
+.text-4 {
+  color: $colorTextIndex;
+  font-size: 2rem;
+}
+.text-5 {
+  color: $colorTextIndex;
+  font-size: 3rem;
+}
+.texto-animado {
+  margin-left: 3rem;
+}
+.fundo-1 {
+  display: flex;
+  align-items: center;
+}
+.fundo-2 {
+  display: flex;
+  align-items: center;
+}
+.fundo-3 {
+  display: flex;
+  align-items: center;
+}
+.saibaMais {
+  padding: 0.5rem;
+  border: 1px solid black;
+  font-size: 1rem;
+  border-radius: 8px;
+  background-color: $colorTextIndex;
+
+  &:hover {
+    background-color: rgb(51, 50, 50);
+    color: white;
+    transition: 0.7s;
+  }
+}

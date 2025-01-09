@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-right {
+  width: 250px;
+  height: auto;
+}
+.main-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  width: 40%;
+  height: 85%;
+  background-color: darkcyan;
+  flex-direction: column;
+}
+.header {
+  background-color: rgb(46, 111, 111);
+  width: 100%;
+}
+.title-header {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.description-header {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+.series-header {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-size: 25px;
+  align-items: start;
+  justify-content: start;
+}
+.underground {
+  display: flex;
+  flex-direction: column;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description-left {
+  font-size: 18px;
+}
+.img-left {
+  width: 250px;
+  height: auto;
+  justify-content: center;
+}
