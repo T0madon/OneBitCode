@@ -31,7 +31,8 @@ export default function ItemsTable() {
               >
                 Ver
               </Link>
-              <Link to={`items/${item.id}/update`} className="button is-small">
+
+              <Link to={`/items/${item.id}/update`} className="button is-small">
                 Atualizar
               </Link>
               <DeleteButton itemId={item.id} itemName={item.name} />
